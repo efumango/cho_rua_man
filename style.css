@@ -42,6 +42,8 @@ header {
   display: block;
   height: 300px;
   margin: 0 auto;
+  width: 30%;
+  height:auto;
 }
 
 .flower-left{

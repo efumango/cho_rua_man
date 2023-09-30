@@ -6,6 +6,7 @@ html, body {
 }
 
 html {
+  width:100%;
   font-size: 10px;
   background-color: white;
 }

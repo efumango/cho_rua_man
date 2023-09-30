@@ -45,20 +45,20 @@ header {
 }
 
 .flower-left{
-  position: absolute; /* Position the image relative to the header */
-  top: 0; /* Position at the top */
-  left: 0; /* Position at the left */
-  width: 20%; /* Set the width of the image */
-  height: auto; /* Set the height of the image */
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 20%; 
+  height: auto; 
 }
 
 .flower-right{
-  position: absolute; /* Position the image relative to the header */
-  top: 0; /* Position at the top */
+  position: absolute; 
+  top: 0; 
   right: 0; 
-  width: 20%; /* Set the width of the image as a percentage of the header's width */
-  height: auto; /* Maintain the aspect ratio of the image */
-  transform: scaleX(-1); /* Flip the image vertically */
+  width: 20%; 
+  height: auto; 
+  transform: scaleX(-1); 
 }
 
 nav {
@@ -93,7 +93,7 @@ nav a, nav span {
 }
 
 nav a:hover::after {
-  content: url('purple-flower-png-23_resize.png');
+  content: url('images/purple-flower-png-23_resize.png');
   display: block;
 }
 

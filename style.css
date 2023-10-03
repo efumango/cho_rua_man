@@ -100,3 +100,76 @@ nav a:hover::after {
 }
 
 
+/* || main layout */
+
+main{ 
+  margin: 5px;
+
+}
+.container1, .container2, .container3{
+  position:relative;
+  display: inline-block;
+  width: 100%;;
+}
+
+img{
+  border-radius: 20px;
+}
+
+.black-dog{
+  width:100%;
+  height: auto;
+}
+
+.text-overlay{
+  position:absolute;
+  top: 0%;
+  left: 2%;
+  z-index: 1; /* Ensure the text is above the image */
+}
+
+.sasalele{
+  color:white;
+  font-size: 8vw;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.cho-cuc-gio{
+  color: yellow;
+  font-weight: bold;
+  font-size: 5vw;
+  margin-top: 0;
+}
+
+.container2 {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  max-width: 100%; /* Ensure the container doesn't exceed its parent's width */
+}
+
+.corgi-container {
+  max-width: 50%; /* Limit the corgi container to 50% of the parent width */
+  text-align: center; /* Center the image horizontally */
+}
+
+.corgi {
+  padding-top: 5px;
+  max-height: 100%; /* Ensure the image is responsive and won't exceed its container's height */
+  max-width: 100%; /* Ensure the image is responsive and won't exceed its container's width */
+}
+
+.ngu-ngon-ngoan {
+  flex: 1; /* Allow the text container to take the other 50% of the available width */
+  display: flex;
+  flex-direction: column; /* Arrange the text vertically */
+  justify-content: space-between; /* Spread text evenly vertically */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.ngu-ngon-ngoan p {
+  margin: 0; /* Remove default paragraph margins */
+  font-size: 12vh; /* Adjust the font size using vh units, responsive to height */
+  font-weight: bolder;
+  text-align: left; /* Center the text horizontally */
+}
